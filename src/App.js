@@ -1,21 +1,20 @@
 import React,{useState} from "react";
 import './App.css';
+import FirstUseffect from "./FirstUseffect";
 // import HooksToDo from './HooksToDo'
-import First from './Components/First'
-import Second from './Components/Second'
+// import First from './Components/First'
+
+
 export default()=> {
 
   return (
     <div className="App">
       {/* <HooksToDo onSubmit={text=>setTodos([{text,complete:false},...todos])} 
       /> */}
-       <First/>
-       <Second/>
-          
+       <FirstUseffect name="ruban"/>          
   
-            <h1>Hello</h1> 
+            
     </div>
   );
 }
 
-// export default App;
