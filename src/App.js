@@ -5,6 +5,7 @@ import FirstUseffect from "./FirstUseffect";
 // import HooksToDo from './HooksToDo'
 // import First from './Components/First'
 import LoginForm from "./Components/LoginForm"
+import Button from "./Components/Button";
 
 export default()=> {
   const adminUser={
@@ -32,6 +33,7 @@ const Logout =()=>{
       /> */}
        <FirstUseffect name="ruban"/>          
       <SecondUseffect/>
+      <Button/>
       {(user.email !="")?(
         <div className="welcome">
           <h2>Welcome,<span>{user.name}</span></h2>
